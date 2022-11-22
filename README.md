@@ -9,9 +9,9 @@ Mengukur performa bisnis merupakan suatu hal yang sangat penting bagi sebuah per
 
 ## ✏️ Objektif
 Mengumpulkan insight dari analisis dan dengan visualisasi berupa :
-- Pertumbuhan aktivitas pelanggan tahunan (**Annual Customer Activity Growth**)
-- Kualitas kategori produk tahunan (**Annual Product Category Quality**)
-- Penggunaan jenis pembayaran tahunan (**Annual Payment Type Usage**)
+- **Annual Customer Activity Growth** : Pertumbuhan aktivitas pelanggan tahunan
+- **Annual Product Category Quality** : Kualitas kategori produk tahunan 
+- **Annual Payment Type Usage** : Penggunaan jenis pembayaran tahunan
 
 ## ✏️ Data Preparation
 Data preparation merupakan langkah yang harus dipenuhi ketika akan melakukan pengolahan
@@ -35,6 +35,7 @@ Dataset yang digunakan adalah dataset sebuah perusahaan eCommerce Brasil yang me
 2. Melakukan import data csv kedalam database
 3. Menentukan Primary Key atau Foreign Key enggunakan statement `ALTER TABLE`
 4. Membuat dan mengeksport ERD (Entity Relationship Diagram) 
+[Lihat Query](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/blob/6e872deeb0572bc9359f2cf513e0d8c32392c35a/sql_query/Create%20Table.sql)
 
 **Hasil ERD :** <br>
 <p align="center">
@@ -47,7 +48,7 @@ Dataset yang digunakan adalah dataset sebuah perusahaan eCommerce Brasil yang me
 Pertumbuhan aktivitas pelanggan tahunan dapat dianalisis dari Monthly active user (MAU), pelanggan baru, pelanggan dengan repeat order, dan rata-rata order oleh pelanggan.
 
 <p align="center">
-Tabel 1. Hasil Analisis Pertumbuhan Aktivitas Customer (lihat query)
+Tabel 1. Hasil Analisis Pertumbuhan Aktivitas Pelanggan Tahunan ([lihat query](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/blob/6e872deeb0572bc9359f2cf513e0d8c32392c35a/sql_query/Annual%20Customer%20Activity%20Growth.sql))
 </p>
 
 <div align="center">
@@ -93,7 +94,7 @@ Dari analisis dan grafik diatas dapat dibuktikan bahwa rata-rata pelanggan setia
 Kualitas kategori produk tahuan dapat dianalisis dari total pendapatan, total pembatalan pesanan, kategori top produk dan kategori produk yang paling banyak dibatalkan.
 
 <p align="center">
-Tabel 2. Hasil Analisis Total Kategori Produk (lihat query)
+Tabel 2. Hasil Analisis Total Kategori Produk Tahunan ([lihat query](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/blob/6e872deeb0572bc9359f2cf513e0d8c32392c35a/sql_query/Annual%20Product%20Category%20Quality.sql))
 </p>
 
 <div align="center">
@@ -127,7 +128,7 @@ Revenue yang dihasilkan dari top produk juga meningkat untuk setiap tahunnya dan
 
 <p align="center">
   <img src="asset/gambar_7_cenceled.png" width=60% height=60%> <br>
-  Gambar 6. Grafik Total Revenue Top Produk Pertahun
+  Gambar 7. Grafik Total Revenue Top Produk Pertahun
 </p>
 
 📌 **Insight :** <br>
@@ -137,7 +138,7 @@ Produk yang sering dibatalkan oleh pelanggan untuk setiap tahunnya juga memiliki
 #### 3. Annual Payment Type Usage
 
 <p align="center">
-    Tabel 3. Hasil Analisis Total Tipe Pembayran yang Digunakan (lihat query)
+    Tabel 3. Hasil Analisis Total Tipe Pembayaran yang Digunakan Tahunan ([lihat query](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/blob/6e872deeb0572bc9359f2cf513e0d8c32392c35a/sql_query/Annual%20Payment%20Type%20Usage.sql))
 </p>
 
 <div align="center">
@@ -154,7 +155,7 @@ Produk yang sering dibatalkan oleh pelanggan untuk setiap tahunnya juga memiliki
 <br>
 <p align="center">
   <img src="asset/gambar_8_tipe_pembayaran.png" width=60% height=60%> <br>
-  Gambar 6. Grafik Tipe Pembayaran yang Digunakan Pelanggan Pertahun
+  Gambar 8. Grafik Tipe Pembayaran yang Digunakan Pelanggan Pertahun
 </p>
 
 📌 **Insight :** <br>
