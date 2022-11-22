@@ -9,9 +9,9 @@ Mengukur performa bisnis merupakan suatu hal yang sangat penting bagi sebuah per
 
 ## ✏️ Objektif
 Mengumpulkan insight dari analisis dan dengan visualisasi berupa :
-- Pertumbuhan aktivitas pelanggan (**Annual Customer Activity Growth**) dengan melihat Monthly active user (MAU), pelanggan baru, pelanggan dengan repeat order, dan rata-rata order oleh pelanggan.
-- Kualitas kategori produk (**Annual Product Category Quality**) dengan melihat total pendapatan, total pembatalan pesanan, kategori produk terlaris dan kategori produk yang paling banyak dibatalkan.
-- Penggunaan jenis pembayaran (**Annual Payment Type Usage**) dengan melihat jenis pembayaran favorit sepanjang waktu, dan jumlah penggunaan untuk setiap jenis pembayaran menurut tahun.
+- Pertumbuhan aktivitas pelanggan tahunan (**Annual Customer Activity Growth**)
+- Kualitas kategori produk tahunan (**Annual Product Category Quality**)
+- Penggunaan jenis pembayaran tahunan (**Annual Payment Type Usage**)
 
 ## ✏️ Data Preparation
 Data preparation merupakan langkah yang harus dipenuhi ketika akan melakukan pengolahan
@@ -44,6 +44,8 @@ Dataset yang digunakan adalah dataset sebuah perusahaan eCommerce Brasil yang me
 
 ## ✏️ Analisis
 #### 1. Annual Customer Activity Growth
+Pertumbuhan aktivitas pelanggan tahunan dapat dianalisis dari Monthly active user (MAU), pelanggan baru, pelanggan dengan repeat order, dan rata-rata order oleh pelanggan.
+
 <p align="center">
 Tabel 1. Hasil Analisis Pertumbuhan Aktivitas Customer (lihat query)
 </p>
@@ -74,7 +76,7 @@ Secara keseluruhan perusahaan mengalami peningkakatan Monthly Active User serta 
 </p>
 
 📌 **Insight :** <br>
-Peningkatan yang signifikan juga terjadi pada jumlah pelanggan yang melakukan repeat order pada tahun 2016 hingga 2017. Namun pada tahun 2018 jumlah tersebut mengalami sedikit penurunan. Dari hal tersebut terlihat bahwa pelanggan cenderung hanya melakukan order satu kali. <br>
+Peningkatan yang signifikan juga terjadi pada jumlah pelanggan yang melakukan repeat order pada tahun 2016 hingga 2017. Namun pada tahun 2018 mengalami sedikit penurunan, artinya diduga pelanggan kebanyakan hanya melakukan satu kali. <br>
 <br>
 
 <p align="center">
@@ -87,6 +89,9 @@ Dari analisis dan grafik diatas dapat dibuktikan bahwa rata-rata pelanggan setia
 <br>
 
 #### 2. Annual Product Category Quality
+
+Kualitas kategori produk tahuan dapat dianalisis dari total pendapatan, total pembatalan pesanan, kategori top produk dan kategori produk yang paling banyak dibatalkan.
+
 <p align="center">
 Tabel 2. Hasil Analisis Total Kategori Produk (lihat query)
 </p>
@@ -108,7 +113,7 @@ Tabel 2. Hasil Analisis Total Kategori Produk (lihat query)
 </p>
 
 📌 **Insight :** <br>
-Secara keseluruhan revenue perusahaan meningkat untuk setiap tahunnya. <br>
+Secara keseluruhan revenue perusahaan meningkat setiap tahun. <br>
 <br>
 
 <p align="center">
@@ -117,7 +122,7 @@ Secara keseluruhan revenue perusahaan meningkat untuk setiap tahunnya. <br>
 </p>
 
 📌 **Insight :** <br>
-Revenue yang dihasilkan dari top produk (best seller) juga meningkat untuk setiap tahunnya. Dari analisis juga diketahui bahwa setiap tahun memiliki kategori top produk yang berbeda. Tahun 2018 memiliki total revenue tertinggi dengan top produk kategori kesehatan dan kecantikan. <br>
+Revenue yang dihasilkan dari top produk juga meningkat untuk setiap tahunnya dan setiap tahun memiliki kategori top produk yang berbeda. Tahun 2018 memiliki pendapatan revenue tertinggi dengan top produk kategori kesehatan dan kecantikan. <br>
 <br>
 
 <p align="center">
@@ -126,10 +131,11 @@ Revenue yang dihasilkan dari top produk (best seller) juga meningkat untuk setia
 </p>
 
 📌 **Insight :** <br>
-Dari analisis top produk yang sering dibatalkan oleh pelanggan untuk setiap tahunnya juga memiliki kategori yang berbeda. Namun pada tahun 2018 kategori produk yang sering dibatalkan sama dengan top produk yang paling banyak menghasilkan revenue. Hal tersebut diduga bahwa kategori kesehatan dan kecantikan sedang mendominasi pasar.  <br>
+Produk yang sering dibatalkan oleh pelanggan untuk setiap tahunnya juga memiliki kategori yang berbeda dan mengalami kenaikan setiap tahunnya. Tahun 2018 memiliki jumlah produk yang dibatalkan paling banyak, namun disisi lain memiliki kategori yang sama dengan top produk 2018 yaitu kesehatan dan kcantikan. Hal tersebut diduga bahwa kategori kesehatan dan kecantikan sedang mendominasi pasar.  <br>
 <br>
 
 #### 3. Annual Payment Type Usage
+
 <p align="center">
     Tabel 3. Hasil Analisis Total Tipe Pembayran yang Digunakan (lihat query)
 </p>
@@ -152,10 +158,12 @@ Dari analisis top produk yang sering dibatalkan oleh pelanggan untuk setiap tahu
 </p>
 
 📌 **Insight :** <br>
-Dari analisis dapat diketahui bahwa pelanggan dominan melakukan pembayaran menggunakan kartu kredit setiap tahunnya. Selainin itu pembayaran menggunakan voucher menurun pada tahun 2018, namun penggunaan kartu debit meningkat signifikan. Hal tesebut kemungkinan dapat diduga pada tahun 2018 adanya promosi untuk pembayaran menggunakan debit.  <br>
+Mayoritas pelanggan melakukan pembayaran menggunakan kartu kredit setiap tahunnya dan cenderung mengalami peningkatan, lalu disusul dengan boleto. Pembayaran menggunakan voucher meningkat pada tahun 2017, namun menurun pada tahun 2018. Hal tersebut dapat diduga karena ketersediaan voucher yang diberikan perusahaan lebih sedikit dari tahun lalu. Disisi lain, pelanggan yang melakukan pembayaran dengan kartu debit meningkat secara signifikan pada tahun 2018. Hal tersebut dapat diduga kemungkinan terdapat promosi pembayaran dengan kartu debit sehingga banyak pelanggan yang tertarik untuk menggunakan metode tersebut.
+
+<br>
 
 ## ✏️ Kesimpulan
 
-- **Pertumbuhan pelanggan baru yang terjadi pada setiap tahun** ditunjukkan dengan bertambahnya jumlah pelanggan baru dan jumlah Pengguna Aktif Bulanan (MAU). Di sisi lain pada tahun 2018 terjadi penurunan pelanggan yang yang melakukan repeat order, artinya pelanggan cenderung hanya melakukan pembelian sebanyak satu kali.
-- Dari  analisis Product Category Quality, terjadi **peningkatan revenue pada setiap tahunnya** dengan kategori produk best seller dan yang sering dibatalkan pelanggan berbeda setiap tahun. Kategori **kesehatan dan kecantikan** menjadi produk best seller dan yang paling sering dibatalkan pada tahun 2018.
-- **Kartu kredit** merupakan tipe pembayaran yang dominan digunakan pelanggan.
+- Dilihat dari analisis pertumbuhan tahunan pelanggan dapat disimpulkan bahwa jumlah pelanggan baru dan aktif (MAU) meningkat setiap tahunnya, namun pelanggan cenderung tidak *repeat order* atau hanya melakukan pembelian satu kali. Dari hal tersebut perlu adanya strategi bisnis untuk meningkatkan minat pelanggan agar melakukan pembelian misalnya dengan pemberian promo, call to action, dan lain sebagainya.
+- Dari analisis kualitas produk tahunan, revenue terus meningkat dengan kategori produk yang berbeda setiap tahunnya. Kategori **kesehatan dan kecantikan** menjadi produk best seller dan yang paling sering dibatalkan oleh pelanggan pada tahun 2018. Berdasarkan hasil top produk ini dapat dilakukan strategi bisnis terkait riset produk apa yang akan menjadi trend di tahun selanjutnya, sehingga diharapkan dapat memperbesar peluang perusahaan mendapatkan revenue.
+- Kartu kredit merupakan tipe pembayaran yang dominan digunakan pelanggan.
