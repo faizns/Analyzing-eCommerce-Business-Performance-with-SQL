@@ -44,13 +44,19 @@ Dataset yang digunakan adalah dataset sebuah perusahaan eCommerce Brasil yang me
 
 ## ✏️ Analisis
 #### 1. Annual Customer Activity Growth
+<p align="center">
 Tabel 1. Hasil Analisis Pertumbuhan Aktivitas Customer (lihat query)
+</p>
+
+<div align="center">
 
 | year | avg_mau | total_new_customer | total_customer_repeat | avg_frequency | 
 |------|---------|--------------------|-----------------------|---------------|
 |2016	 |108	     |326	              | 3	                    | 1.009         |
 |2017	 |3694     |43708	              | 1256	              | 1.032         |
 |2018	 |5338     |52062	              | 1167	              | 1.024         |
+
+</div>
 
 <br>
 <p align="center">
@@ -81,13 +87,19 @@ Dari analisis dan grafik diatas dapat dibuktikan bahwa rata-rata pelanggan setia
 <br>
 
 #### 2. Annual Product Category Quality
+<p align="center">
 Tabel 2. Hasil Analisis Total Kategori Produk (lihat query)
+</p>
+
+<div align="center">
 
 | year | total_revenue | top_product    | total_revenue_top_product | total_canceled | top_canceled_product | total_top_canceled_product |
 |------|---------------|----------------|---------------------------|----------------|----------------------|-----------------------------
 |2016	 |46653.74	     |furniture_decor |6899.35	              | 26	       | toys	            |3                           |
 |2017	 |6921535.24     |bed_bath_table  |569964.78	              | 265	       | sports_leisure	      |24                          |
 |2018	 |8451584.77     |health_beauty   |877065.73	              | 334	       | health_beauty	      |27                          |
+
+</div>
 
 <br>
 <p align="center">
@@ -122,12 +134,16 @@ Dari analisis top produk yang sering dibatalkan oleh pelanggan untuk setiap tahu
     Tabel 3. Hasil Analisis Total Tipe Pembayran yang Digunakan (lihat query)
 </p>
 
+<div align="center">
+            
 |  payment_type  |  2016  |  2017  |  2018  | sum_payment_type_usage |
 |----------------|--------|--------|--------|------------------------|
 | credit_card    | 258	  | 34568  | 41969  |	76795                |
 | boleto         | 63	  | 9508   | 10213  |	19784                |
 | voucher        | 23	  | 3027   | 2725   |	5775                 |
 | debit_card     | 2	  | 422    | 1105   |	1529                 |
+
+</div>
 
 <br>
 <p align="center">
