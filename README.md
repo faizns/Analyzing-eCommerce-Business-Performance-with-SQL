@@ -72,7 +72,7 @@ Secara keseluruhan perusahaan mengalami peningkakatan Monthly Active User serta 
 </p>
 
 📌 **Insight :** <br>
-Peningkatan yang signifikan juga terjadi pada jumlah pelanggan yang melakukan repeat order pada tahun 2016 hingga 2017. Namun pada tahun 2018 mengalami sedikit penurunan, artinya diduga pelanggan kebanyakan hanya melakukan satu kali. <br>
+Peningkatan yang signifikan juga terjadi pada jumlah pelanggan yang melakukan repeat order pada tahun 2016 hingga 2017. Namun pada tahun 2018 mengalami sedikit penurunan. <br>
 <br>
 
 
@@ -82,7 +82,7 @@ Peningkatan yang signifikan juga terjadi pada jumlah pelanggan yang melakukan re
 </p>
 
 📌 **Insight :** <br>
-Dari analisis dan grafik diatas dapat dibuktikan bahwa rata-rata pelanggan setiap tahunnya memang hanya melakukan order satu kali. <br>
+Dari analisis dan grafik diatas dapat diketahui bahwa rata-rata pelanggan setiap tahunnya cenderung hanya melakukan order satu kali. <br>
 <br>
 
 #### 2. Annual Product Category Quality
