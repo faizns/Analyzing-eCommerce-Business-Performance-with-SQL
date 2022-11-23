@@ -1,23 +1,26 @@
 # Project Data Analysis : Analyzing eCommerce Business Performance with SQL
 
-**Work Environment :**
-> Tools : PostgreSQL <br> 
-Visualization : Microsoft Excel
+> 💻 Tools : **PostgreSQL** <br> 
+📈 Visualisasi : **Microsoft Excel** <br>
+📂 Sumber Dataset : **Rakamin Academy**
+
+## 📝 Daftar Isi
+- [Rumusan Masalah](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/edit/main/README.md#%EF%B8%8F-rumusan-masalah)
+- [Objektif](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/edit/main/README.md#%EF%B8%8F-objektif)
+- [Preparasi Data](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/edit/main/README.md#%EF%B8%8F-data-preparation)
+- [Analisis](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/edit/main/README.md#%EF%B8%8F-analisis)
+- [Kesimpulan](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/edit/main/README.md#%EF%B8%8F-kesimpulan)
 
 ## ✏️ Rumusan Masalah
 Mengukur performa bisnis merupakan suatu hal yang sangat penting bagi sebuah perusahaan. Ini akan membantu dalam memantau, dan menilai keberhasilan atau kegagalan dari berbagai proses bisnis. Pengukuran performa bisnis dapat dilakukan dengan memperhitungkan beberapa metrik bisnis. Dalam poyek ini akan dilakukan analisis performa bisnis suatu perusahaan eCommerce dengan dengan metrik bisnis yaitu pertumbuhan pelanggan, kualitas produk, dan tipe pembayaran berdasarkan historical data selama tiga tahun.
 
 ## ✏️ Objektif
 Mengumpulkan insight dari analisis dan dengan visualisasi berupa :
-- **Annual Customer Activity Growth** : Pertumbuhan aktivitas pelanggan tahunan
-- **Annual Product Category Quality** : Kualitas kategori produk tahunan 
-- **Annual Payment Type Usage** : Penggunaan jenis pembayaran tahunan
+1. [**Annual Customer Activity Growth**](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/edit/main/README.md#1-annual-customer-activity-growth)
+2. [**Annual Product Category Quality**](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/edit/main/README.md#2-annual-product-category-quality)
+3. [**Annual Payment Type Usage**](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/edit/main/README.md#3-annual-payment-type-usage)
 
 ## ✏️ Data Preparation
-Data preparation merupakan langkah yang harus dipenuhi ketika akan melakukan pengolahan
-data. Pada tahap ini dilakukan penyiapan data mentah menjadi data yang terstruktur dan siap di 
-proses.
-
 Dataset yang digunakan adalah dataset sebuah perusahaan eCommerce Brasil yang memiliki informasi pesanan dengan jumlah 99441 dari tahun 2016 hingga 2018. Terdapat fitur-titur yang membuat informasi seperti status pemesanan, lokasi, rincian item, jenis pembayaran, serta ulasan.
 
 📌 Tabel yang digunakan:
@@ -39,7 +42,7 @@ Dataset yang digunakan adalah dataset sebuah perusahaan eCommerce Brasil yang me
 
 **Hasil ERD :** <br>
 <p align="center">
-  <img src="asset/gambar_1_ERD.png" width=60% height=60%> <br>
+  <kbd><img src="asset/gambar_1_ERD.png" width=600px> </kbd> <br>
   Gambar 1. Entity Relationship Diagram
 </p>
 
@@ -48,31 +51,22 @@ Dataset yang digunakan adalah dataset sebuah perusahaan eCommerce Brasil yang me
 Pertumbuhan aktivitas pelanggan tahunan dapat dianalisis dari Monthly active user (MAU), pelanggan baru, pelanggan dengan repeat order, dan rata-rata order oleh pelanggan. [Lihat Query](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/blob/6e872deeb0572bc9359f2cf513e0d8c32392c35a/sql_query/Annual%20Customer%20Activity%20Growth.sql)
 
 <p align="center">
-Tabel 1. Hasil Analisis Pertumbuhan Aktivitas Pelanggan Tahunan 
+Tabel 1. Hasil Analisis Pertumbuhan Aktivitas Pelanggan Tahunan  <br>
+  <kbd><img src="asset/activity.png" width=800px> </kbd> <br>
 </p>
-
-<div align="center">
-
-| year | avg_mau | total_new_customer | total_customer_repeat | avg_frequency | 
-|------|---------|--------------------|-----------------------|---------------|
-|2016	 |108	     |326	              | 3	                    | 1.009         |
-|2017	 |3694     |43708	              | 1256	              | 1.032         |
-|2018	 |5338     |52062	              | 1167	              | 1.024         |
-
-</div>
 
 <br>
 <p align="center">
-  <img src="asset/gambar_2_mau_x_newcust.png" width=60% height=60%> <br>
+  <kbd><img src="asset/gambar_2_mau_x_newcust.png" width=600px> </kbd> <br>
   Gambar 2. Grafik Rata-rata MAU dan Pelanggan Baru
 </p>
 
 📌 **Insight :** <br>
-Secara keseluruhan perusahaan mengalami peningkakatan Monthly Active User serta pelanggan baru setiap tahunnya. Peningkatan yang signifikan terjadi pada tahun 2016 hingga 2017, hal ini dikarenakan data transaksi pada tahun 2016 dimulai pada bulan September. <br>
+Secara keseluruhan perusahaan mengalami peningkakatan Monthly Active User serta pelanggan baru setiap tahunnya. Peningkatan yang signifikan terjadi pada tahun 2016 ke 2017, hal ini dikarenakan data transaksi pada tahun 2016 dimulai pada bulan September. <br>
 <br>
 
 <p align="center">
-  <img src="asset/gambar_3_repeat order.png" width=60% height=60%> <br>
+  <kbd><img src="asset/gambar_3_repeat order.png" width=600px> </kbd> <br>
   Gambar 3. Grafik Jumlah Pelanggan yang Melakukan Repeat Order
 </p>
 
@@ -80,8 +74,9 @@ Secara keseluruhan perusahaan mengalami peningkakatan Monthly Active User serta 
 Peningkatan yang signifikan juga terjadi pada jumlah pelanggan yang melakukan repeat order pada tahun 2016 hingga 2017. Namun pada tahun 2018 mengalami sedikit penurunan, artinya diduga pelanggan kebanyakan hanya melakukan satu kali. <br>
 <br>
 
+
 <p align="center">
-  <img src="asset/gambar_4_freq_order.png" width=60% height=60%> <br>
+  <kbd><img src="asset/gambar_4_freq_order.png" width=600px> </kbd> <br>
   Gambar 4. Grafik Rata-rata Frekuensi Order Pelanggan
 </p>
 
@@ -94,22 +89,13 @@ Dari analisis dan grafik diatas dapat dibuktikan bahwa rata-rata pelanggan setia
 Kualitas kategori produk tahuan dapat dianalisis dari total pendapatan, total pembatalan pesanan, kategori top produk dan kategori produk yang paling banyak dibatalkan. [Lihat Query](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/blob/6e872deeb0572bc9359f2cf513e0d8c32392c35a/sql_query/Annual%20Product%20Category%20Quality.sql)
 
 <p align="center">
-Tabel 2. Hasil Analisis Total Kategori Produk Tahunan 
+  Tabel 2. Hasil Analisis Total Kategori Produk Tahunan <br>
+  <kbd><img src="asset/produk.png" width=800px> </kbd> <br>
 </p>
-
-<div align="center">
-
-| year | total_revenue | top_product    | total_revenue_top_product | total_canceled | top_canceled_product | total_top_canceled_product |
-|------|---------------|----------------|---------------------------|----------------|----------------------|-----------------------------
-|2016	 |46653.74	     |furniture_decor |6899.35	              | 26	       | toys	            |3                           |
-|2017	 |6921535.24     |bed_bath_table  |569964.78	              | 265	       | sports_leisure	      |24                          |
-|2018	 |8451584.77     |health_beauty   |877065.73	              | 334	       | health_beauty	      |27                          |
-
-</div>
 
 <br>
 <p align="center">
-  <img src="asset/gambar_5_total_revenue.png" width=60% height=60%> <br>
+  <kbd><img src="asset/gambar_5_total_revenue.png" width=600px> </kbd> <br>
   Gambar 5. Grafik Total Revenue Pertahun
 </p>
 
@@ -118,7 +104,7 @@ Secara keseluruhan revenue perusahaan meningkat setiap tahun. <br>
 <br>
 
 <p align="center">
-  <img src="asset/gambar_6_top.png" width=60% height=60%> <br>
+  <kbd><img src="asset/gambar_6_top.png" width=600px> </kbd> <br>
   Gambar 6. Grafik Total Revenue Top Produk Pertahun
 </p>
 
@@ -127,7 +113,7 @@ Revenue yang dihasilkan dari top produk juga meningkat untuk setiap tahunnya dan
 <br>
 
 <p align="center">
-  <img src="asset/gambar_7_cenceled.png" width=60% height=60%> <br>
+  <kbd><img src="asset/gambar_7_cenceled.png" width=600px> </kbd> <br>
   Gambar 7. Grafik Total Revenue Top Produk Pertahun
 </p>
 
@@ -139,23 +125,13 @@ Produk yang sering dibatalkan oleh pelanggan untuk setiap tahunnya juga memiliki
 Tipe pembayaran yang digunakan pelanggan dapat dianalisis dari jenis pembayaran favorit dan jumlah penggunaan untuk setiap jenis pembayaran per tahun. [Lihat Query](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/blob/6e872deeb0572bc9359f2cf513e0d8c32392c35a/sql_query/Annual%20Payment%20Type%20Usage.sql)
 
 <p align="center">
-    Tabel 3. Hasil Analisis Total Tipe Pembayaran yang Digunakan Tahunan
+  Tabel 3. Hasil Analisis Tipe Pembayaran yang Digunakan Pelanggan <br>
+  <kbd><img src="asset/produk.png" width=800px> </kbd> <br>
 </p>
-
-<div align="center">
-            
-|  payment_type  |  2016  |  2017  |  2018  | sum_payment_type_usage |
-|----------------|--------|--------|--------|------------------------|
-| credit_card    | 258	  | 34568  | 41969  |	76795                |
-| boleto         | 63	  | 9508   | 10213  |	19784                |
-| voucher        | 23	  | 3027   | 2725   |	5775                 |
-| debit_card     | 2	  | 422    | 1105   |	1529                 |
-
-</div>
 
 <br>
 <p align="center">
-  <img src="asset/gambar_8_tipe_pembayaran.png" width=60% height=60%> <br>
+  <kbd><img src="asset/gambar_8_tipe_pembayaran.png" width=600px> </kbd> <br>
   Gambar 8. Grafik Tipe Pembayaran yang Digunakan Pelanggan Pertahun
 </p>
 
@@ -166,6 +142,6 @@ Mayoritas pelanggan melakukan pembayaran menggunakan kartu kredit setiap tahunny
 
 ## ✏️ Kesimpulan
 
-- Dilihat dari analisis pertumbuhan tahunan pelanggan dapat disimpulkan bahwa jumlah pelanggan baru dan aktif (MAU) meningkat setiap tahunnya, namun pelanggan cenderung tidak *repeat order* atau hanya melakukan pembelian satu kali. Dari hal tersebut perlu adanya strategi bisnis untuk meningkatkan minat pelanggan agar melakukan pembelian misalnya dengan pemberian promo, call to action, dan lain sebagainya.
-- Dari analisis kualitas produk tahunan, revenue terus meningkat dengan kategori produk yang berbeda setiap tahunnya. Kategori **kesehatan dan kecantikan** menjadi produk best seller dan yang paling sering dibatalkan oleh pelanggan pada tahun 2018. Berdasarkan hasil top produk ini dapat dilakukan strategi bisnis terkait riset produk apa yang akan menjadi trend di tahun selanjutnya, sehingga diharapkan dapat memperbesar peluang perusahaan mendapatkan revenue.
-- Kartu kredit merupakan tipe pembayaran yang dominan digunakan pelanggan.
+- Dilihat dari analisis pertumbuhan tahunan pelanggan dapat disimpulkan bahwa **jumlah pelanggan baru dan aktif (MAU) meningkat setiap tahunnya**, namun pelanggan cenderung tidak *repeat order* atau hanya melakukan pembelian satu kali. Dari hal tersebut perlu adanya strategi bisnis untuk meningkatkan minat pelanggan agar melakukan pembelian misalnya dengan pemberian promo, *call to action*, dan lain sebagainya.
+- Dari analisis kualitas produk tahunan, **revenue terus meningkat dengan kategori produk yang berbeda setiap tahunnya**. Kategori **kesehatan dan kecantikan** atau `health_bauty` menjadi produk best seller sekaligus produk yang paling sering dibatalkan pembeliannya pada tahun 2018. Berdasarkan hasil analisis ini dapat dilakukan strategi bisnis berupa riset produk apa yang akan menjadi trend di tahun selanjutnya, sehingga diharapkan dapat memperbesar peluang perusahaan mendapatkan revenue.
+- **Kartu kredit** merupakan tipe pembayaran yang dominan digunakan pelanggan.
