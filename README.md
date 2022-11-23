@@ -91,7 +91,7 @@ Kualitas kategori produk tahuan dapat dianalisis dari total pendapatan, total pe
 
 <p align="center">
   Tabel 2. Hasil Analisis Total Kategori Produk Tahunan <br>
-  <kbd><img src="asset/produk.png" width=800px> </kbd> <br>
+  <kbd><img src="asset/produk.png" width=1000px> </kbd> <br>
 </p>
 
 <br>
@@ -127,7 +127,7 @@ Tipe pembayaran yang digunakan pelanggan dapat dianalisis dari jenis pembayaran 
 
 <p align="center">
   Tabel 3. Hasil Analisis Tipe Pembayaran yang Digunakan Pelanggan <br>
-  <kbd><img src="asset/produk.png" width=800px> </kbd> <br>
+  <kbd><img src="asset/payment.png" width=600px> </kbd> <br>
 </p>
 
 <br>
