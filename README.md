@@ -82,12 +82,12 @@ Peningkatan yang signifikan juga terjadi pada jumlah pelanggan yang melakukan re
 </p>
 
 📌 **Insight :** <br>
-Dari analisis dan grafik diatas dapat diketahui bahwa rata-rata pelanggan setiap tahunnya cenderung hanya melakukan order satu kali. <br>
+Dari analisis dan grafik diatas dapat diketahui bahwa rata-rata pelanggan setiap tahunnya cenderung hanya melakukan order satu kali, artinya mayoritas pelanggan tidak melakukan repeat order.<br>
 <br>
 
 #### 2. Annual Product Category Quality
 
-Kualitas kategori produk tahuan dapat dianalisis dari total pendapatan, total pembatalan pesanan, kategori top produk dan kategori produk yang paling banyak dibatalkan. [Lihat Query](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/blob/6e872deeb0572bc9359f2cf513e0d8c32392c35a/sql_query/Annual%20Product%20Category%20Quality.sql)
+Kualitas kategori produk tahunan dapat dianalisis dari total pendapatan, total pembatalan pesanan, kategori top produk dan kategori produk yang paling banyak dibatalkan. [Lihat Query](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/blob/6e872deeb0572bc9359f2cf513e0d8c32392c35a/sql_query/Annual%20Product%20Category%20Quality.sql)
 
 <p align="center">
   Tabel 2. Hasil Analisis Total Kategori Produk Tahunan <br>
@@ -110,7 +110,7 @@ Secara keseluruhan revenue perusahaan meningkat setiap tahun. <br>
 </p>
 
 📌 **Insight :** <br>
-Revenue yang dihasilkan dari top produk juga meningkat untuk setiap tahunnya dan setiap tahun memiliki kategori top produk yang berbeda. Tahun 2018 memiliki pendapatan revenue tertinggi dengan top produk kategori kesehatan dan kecantikan. <br>
+Revenue yang dihasilkan dari top produk juga meningkat untuk setiap tahunnya. Selain itu setiap tahunnya memiliki jenis kategori top produk yang berbeda. Pada tahun 2018, perusahaan menghasilkan revenue paling tinggi dengan jenis karegori top produk kesehatan dan kecantikan (`health_beauty`). <br>
 <br>
 
 <p align="center">
@@ -119,11 +119,11 @@ Revenue yang dihasilkan dari top produk juga meningkat untuk setiap tahunnya dan
 </p>
 
 📌 **Insight :** <br>
-Produk yang sering dibatalkan oleh pelanggan untuk setiap tahunnya juga memiliki kategori yang berbeda dan mengalami kenaikan setiap tahunnya. Tahun 2018 memiliki jumlah produk yang dibatalkan paling banyak, namun disisi lain memiliki kategori yang sama dengan top produk 2018 yaitu kesehatan dan kcantikan. Hal tersebut diduga bahwa kategori kesehatan dan kecantikan sedang mendominasi pasar.  <br>
+Produk yang sering dibatalkan oleh pelanggan untuk setiap tahunnya juga memiliki jenis kategori yang berbeda dan terus mengalami kenaikan. Tahun 2018 memiliki jumlah produk yang dibatalkan paling banyak dan memiliki jenis kategori yang sama dengan top produk yang paling banyak menghasilkan revenue. Hal tersebut dapat diduga karena jenis kategori kesehatan dan kecantikan sedang mendominasi pasar.  <br>
 <br>
 
 #### 3. Annual Payment Type Usage
-Tipe pembayaran yang digunakan pelanggan dapat dianalisis dari jenis pembayaran favorit dan jumlah penggunaan untuk setiap jenis pembayaran per tahun. [Lihat Query](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/blob/6e872deeb0572bc9359f2cf513e0d8c32392c35a/sql_query/Annual%20Payment%20Type%20Usage.sql)
+Tipe pembayaran yang digunakan pelanggan dapat dianalisis dari jenis pembayaran favorit dan jumlah penggunaan untuk setiap jenis pembayaran pertahun. [Lihat Query](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/blob/6e872deeb0572bc9359f2cf513e0d8c32392c35a/sql_query/Annual%20Payment%20Type%20Usage.sql)
 
 <p align="center">
   Tabel 3. Hasil Analisis Tipe Pembayaran yang Digunakan Pelanggan <br>
@@ -137,7 +137,7 @@ Tipe pembayaran yang digunakan pelanggan dapat dianalisis dari jenis pembayaran 
 </p>
 
 📌 **Insight :** <br>
-Mayoritas pelanggan melakukan pembayaran menggunakan kartu kredit setiap tahunnya dan cenderung mengalami peningkatan, lalu disusul dengan boleto. Pembayaran menggunakan voucher meningkat pada tahun 2017, namun menurun pada tahun 2018. Hal tersebut dapat diduga karena ketersediaan voucher yang diberikan perusahaan lebih sedikit dari tahun lalu. Disisi lain, pelanggan yang melakukan pembayaran dengan kartu debit meningkat secara signifikan pada tahun 2018. Hal tersebut dapat diduga kemungkinan terdapat promosi pembayaran dengan kartu debit sehingga banyak pelanggan yang tertarik untuk menggunakan metode tersebut.
+Mayoritas pelanggan melakukan pembayaran menggunakan kartu kredit dan cenderung mengalami peningkatan setiap tahunnya. Pembayaran menggunakan voucher meningkat pada tahun 2017, namun menurun pada tahun 2018. Hal tersebut dapat diduga karena ketersediaan voucher yang diberikan perusahaan lebih sedikit dari tahun lalu. Disisi lain, pelanggan yang melakukan pembayaran dengan kartu debit meningkat secara signifikan pada tahun 2018. Hal tersebut dapat diduga karena kemungkinan terdapat promosi pembayaran untuk kartu debit, sehingga banyak pelanggan yang tertarik untuk menggunakan metode tersebut.
 <br>
 
 ## ✏️ Kesimpulan
