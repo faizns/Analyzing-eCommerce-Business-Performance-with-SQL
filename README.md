@@ -41,7 +41,7 @@ Dataset yang digunakan adalah dataset sebuah perusahaan eCommerce Brasil yang me
 4. Membuat dan mengeksport ERD (Entity Relationship Diagram) <br>
 
 <details>
-  <summary>Click disini untuk melihat Query</summary>
+  <summary>Click disini untuk melihat Query 👁️‍🗨️</summary>
   
   ```sql
 -- 1) Membuat database melalui klik kanan Databases > Create > Database.. dengan nama ecommerce_miniproject
@@ -147,7 +147,7 @@ ALTER TABLE order_items_dataset ADD FOREIGN KEY (seller_id) REFERENCES sellers_d
 Pertumbuhan aktivitas pelanggan tahunan dapat dianalisis dari Monthly active user (MAU), pelanggan baru, pelanggan dengan repeat order, dan rata-rata order oleh pelanggan.
 
 <details>
-  <summary>Click disini untuk melihat Query</summary>
+  <summary>Click disini untuk melihat Query 👁️‍🗨️</summary>
   
   ```sql
  --1 Menampilkan rata-rata jumlah customer aktif bulanan (monthly active user) untuk setiap tahun
@@ -334,7 +334,7 @@ Dari analisis dan grafik diatas dapat diketahui bahwa rata-rata pelanggan setiap
 Kualitas kategori produk tahunan dapat dianalisis dari total pendapatan, total pembatalan pesanan, kategori top produk dan kategori produk yang paling banyak dibatalkan.
 
 <details>
-  <summary>Click disini untuk melihat Query</summary>
+  <summary>Click disini untuk melihat Query 👁️‍🗨️</summary>
 
   ```sql
  --1) Membuat tabel yang berisi informasi pendapatan/revenue perusahaan total untuk masing-masing tahun
@@ -468,7 +468,7 @@ Produk yang sering dibatalkan oleh pelanggan untuk setiap tahunnya juga memiliki
 Tipe pembayaran yang digunakan pelanggan dapat dianalisis dari jenis pembayaran favorit dan jumlah penggunaan untuk setiap jenis pembayaran pertahun. 
 
 <details>
-  <summary>Click disini untuk melihat Query</summary>
+  <summary>Click disini untuk melihat Query 👁️‍🗨️</summary>
 
   ```sql
 -- 1) Menampilkan jumlah penggunaan masing-masing tipe pembayaran secara all time diurutkan dari yang terfavorit
