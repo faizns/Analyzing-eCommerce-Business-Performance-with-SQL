@@ -5,18 +5,19 @@
 **Visualization** : Microsoft Excel <br>
 **Dataset** : Rakamin Academy - [Ecommerce Data]()
 <br>
+<br>
 
 **Table of Contents**
-- [STAGE 0: Problem Statement](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/blob/main/README.md#📂-STAGE-0:-Problem-Statement)
-	- [Background Story](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/blob/main/README.md#Background-Story)
-	- [Objective](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/blob/main/README.md#Objective)
-- [STAGE 1: Data Preparation](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/blob/main/README.md#📂-STAGE-1:-Data-Preparation)
-	- [Create Database and ERD](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/blob/main/README.md#Create-Database-and-ERD)
-- [STAGE 2: Data Analysis](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/blob/main/README.md#📂-STAGE-2:-Data-Analysis)
+- [STAGE 0: Problem Statement](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/blob/main/README.md#-stage-0:-problem-statement)
+	- [Background Story](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/blob/main/README.md#background-story)
+	- [Objective](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/blob/main/README.md#objective)
+- [STAGE 1: Data Preparation](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/blob/main/README.md#-stage-1:-Data-Preparation)
+	- [Create Database and ERD](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/blob/main/README.md#create-database-and-erd)
+- [STAGE 2: Data Analysis](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/blob/main/README.md#-stage-2:-data-analysis)
 	- [Annual Customer Activity Growth](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/blob/main/README.md#1-annual-customer-activity-growth)
 	- [Annual Product Category Quality](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/blob/main/README.md#2-annual-product-category-quality)
 	- [Annual Payment Type Usage](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/blob/main/README.md#3-annual-payment-type-usage)
-- [STAGE 3: Summary](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/blob/main/README.md#📂-STAGE-3:-Summary)
+- [STAGE 3: Summary](https://github.com/faizns/Analyzing-eCommerce-Business-Performance-with-SQL/blob/main/README.md#-stage-3:-summary)
 <br>
 <br>
 
@@ -530,5 +531,5 @@ Mayoritas pelanggan melakukan pembayaran menggunakan kartu kredit dan cenderung 
 
 ## 📂 **STAGE 3: Summary**
 - Dilihat dari analisis pertumbuhan tahunan pelanggan dapat disimpulkan bahwa **jumlah pelanggan baru dan aktif (MAU) meningkat setiap tahunnya**, namun pelanggan cenderung tidak repeat order atau hanya melakukan pembelian satu kali. Dari hal tersebut perlu adanya strategi bisnis untuk meningkatkan minat pelanggan agar melakukan pembelian misalnya dengan pemberian promo, *call to action*, dan lain sebagainya.
-- Dari analisis kualitas produk tahunan, **revenue terus meningkat dengan kategori produk yang berbeda setiap tahunnya**. Kategori **kesehatan dan kecantikan** atau `health_bauty` menjadi produk best seller sekaligus produk yang paling sering dibatalkan pembeliannya pada tahun 2018. Berdasarkan hasil analisis ini dapat dilakukan strategi bisnis berupa riset produk apa yang akan menjadi trend di tahun selanjutnya, sehingga diharapkan dapat memperbesar peluang perusahaan mendapatkan revenue.
+- Dari analisis kualitas produk tahunan, **revenue terus meningkat dengan kategori produk yang berbeda setiap tahunnya**. Kategori **kesehatan dan kecantikan** menjadi produk best seller sekaligus produk yang paling sering dibatalkan pembeliannya pada tahun 2018. Berdasarkan hasil analisis ini dapat dilakukan strategi bisnis berupa riset produk apa yang akan menjadi trend di tahun selanjutnya, sehingga diharapkan dapat memperbesar peluang perusahaan mendapatkan revenue.
 - **Kartu kredit** merupakan tipe pembayaran mayoritas yang digunakan oleh pelanggan.
